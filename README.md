@@ -36,3 +36,6 @@ Below is a curated list of recommended reading to get you up to speed with inter
 - [Pon Tech Blog](https://medium.com/pon-tech-talk)
 - [Development Guidelines](https://pondigitalsolutions.github.io/restful-api-guidelines/)
 
+### Internal (non public)
+
+- [Software Development Principles](https://docs.google.com/presentation/d/1tcgcg4OAxkFY-WhnsqEQn8J_wQHlADKankxaGlfSfjE)
