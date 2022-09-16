@@ -1,5 +1,5 @@
 # pon-developer-guide
-The Pon developer guide, guidlines, standards and best practices.
+The Pon developer guide, guidelines, standards and best practices.
 
 ## Introduction
 Ahoy there fellow Developer 👋 This repository is a good starting point for accelerating your ability to contribute towards our projects, yay! Scouts rules apply, so please keep this page up to date for your colleagues (or future self).
@@ -35,3 +35,4 @@ Below is a curated list of recommended reading to get you up to speed with inter
 - [Branching guidelines](https://guidelines-git-branching.pages.dev/)
 - [Pon Tech Blog](https://medium.com/pon-tech-talk)
 - [Development Guidelines](https://pondigitalsolutions.github.io/restful-api-guidelines/)
+
