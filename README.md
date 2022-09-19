@@ -29,6 +29,13 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
 
+## Architecture
+
+Some basic rules apply at Pon for architecture, please refer to the internal documentation details, the following guidelines apply:
+
+- Mulesoft is the preferred integration tool
+- Integrations do not contain business logic
+
 ## Reading list 📚
 Below is a curated list of recommended reading to get you up to speed with internal guidelines, principles, policies, principles and processes. Be sure to familiarise yourself with the content below:
 
