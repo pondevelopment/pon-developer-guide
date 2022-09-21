@@ -13,7 +13,7 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 
 ### Generic development
 
-- [Github Enterprise](https://github.com/enterprise) - Pon wide license
+- [Github Enterprise](https://github.com/enterprise) - Pon wide license, managed by Digital Solutions
 - [VSCode](https://code.visualstudio.com/)
 - [VSCode - Prettier Extension](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
 - [VSCode - StyleLint Plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
