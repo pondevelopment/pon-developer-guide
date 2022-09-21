@@ -29,6 +29,13 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
 
+## Code quality
+
+On the Pon Github account linters are available and maintend by cross-opco developers. It is strongle suggest to use these linters if applicable.
+Several code quality tools are in use:
+
+- [SonarCloud](https://sonarcloud.io/)
+
 ## Architecture
 
 Some basic rules apply at Pon for architecture, please refer to the internal documentation details, the following guidelines apply:
