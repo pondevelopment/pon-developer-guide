@@ -52,6 +52,7 @@ Below is a curated list of recommended reading to get you up to speed with inter
 
 ### Internal (non public)
 
+- [Software Development at Pon](https://ponintranet.com/en/pon-arch-subjects/software-development/)
 - [Software Development Principles](https://docs.google.com/presentation/d/1tcgcg4OAxkFY-WhnsqEQn8J_wQHlADKankxaGlfSfjE)
 - [Microservice Principles](https://docs.google.com/presentation/d/1Wtu6kSWgfz6B2anCBWBdqREgRzD55kPGC9pA_ZbSieY)
 - [Software Testing & QA Principles](https://docs.google.com/presentation/d/1hhRo2mgResA5cheyEv9czfg4sfQH2Csx-YI_H4ApmQM)
