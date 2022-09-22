@@ -36,6 +36,12 @@ Several code quality tools are in use:
 
 - [SonarCloud](https://sonarcloud.io/)
 
+## Security
+
+Pon implements security by design
+
+- [Security architecture (internal)](https://ponintranet.com/en/pon-arch-subjects/security-architecture/)
+
 ## Architecture
 
 Some basic rules apply at Pon for architecture, please refer to the internal documentation details, the following guidelines apply:
