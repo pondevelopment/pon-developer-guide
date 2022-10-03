@@ -7,6 +7,10 @@ Ahoy there fellow Developer 👋 This repository is a good starting point for ac
 ## Best practices
 
 - [The Boy Scout rule](https://www.informit.com/articles/article.aspx?p=1235624&seqNum=6) - Leave your code better than you found it.
+- Good, clean and secure code as defined by: "*How much effort is required for another developer of comparable experience to pick up where the previous developer left off to fix, enhance or build upon the source code - without involving the former developer and taking into account the lifetime, quality, security and the business impact of the application.*"
+
+## Documentation
+A developer should be a able to self-start by using the documentation available in the source code repository. Github is the preferred hub for (a reference to) all related project and product documentation.
 
 ## Recommended software
 Every crafts person has his/her preferred tools. While you are free to choose what works best for you, below you will find a list of recommended software to aid you in your development activities:
