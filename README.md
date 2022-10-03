@@ -29,6 +29,10 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
 
+## Code repository
+
+Pon has a company wide Github Enterprise license managed by PonIT and Digital Solutions. 
+
 ## Code quality
 
 On the Pon Github account linters are available and maintend by cross-opco developers. It is strongle suggest to use these linters if applicable.
