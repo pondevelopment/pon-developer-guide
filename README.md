@@ -58,6 +58,15 @@ Some basic rules apply at Pon for architecture, please refer to the internal doc
 - Integrations do not contain business logic
 - When using events the [Cloudevent.io](https://cloudevents.io/) structure is preferred
 
+## Guilds
+
+Pon has several guilds which are responsible for guidelines and standards for the guilds subject
+
+- VueJS guild
+- Software development guild
+- Cloudflare guild
+- Architecture guild
+
 ## Reading list 📚
 Below is a curated list of recommended reading to get you up to speed with internal guidelines, principles, policies, principles and processes. Be sure to familiarise yourself with the content below:
 
