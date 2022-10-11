@@ -78,6 +78,7 @@ Below is a curated list of recommended reading to get you up to speed with inter
 
 ### Internal (non public)
 
+- [Enterprise Architecture](https://docs.google.com/presentation/d/1kXin45YKe33LdTjuywHIafoU0LTjxzi_-kCaPqcyHbI)
 - [IT Architecture](https://ponintranet.com/en/it-architecture/)
 - [Software Development at Pon](https://ponintranet.com/en/pon-arch-subjects/software-development/)
 - [Software Development Principles](https://docs.google.com/presentation/d/1tcgcg4OAxkFY-WhnsqEQn8J_wQHlADKankxaGlfSfjE)
