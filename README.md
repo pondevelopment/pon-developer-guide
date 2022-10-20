@@ -42,7 +42,7 @@ Pon has a company wide Github Enterprise license managed by PonIT and Digital So
 
 ## Code quality
 
-On the Pon Github account linters are available and maintend by cross-opco developers. It is strongle suggest to use these linters if applicable.
+On the Pon Github account linters are available and maintained by cross-opco developers. It is strongle suggest to use these linters if applicable.
 Several code quality tools are in use:
 
 - [Pon guidelines for SonarCloud](https://github.com/pondevelopment/pon-developer-guide/tree/main/tools/sonarcloud)
