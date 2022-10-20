@@ -57,6 +57,7 @@ Pon implements security by design
 
 Some basic rules apply at Pon for architecture, please refer to the internal documentation details, the following guidelines apply:
 
+- API first
 - Mulesoft is the preferred integration tool
 - Integrations do not contain business logic
 - When using events the [Cloudevent.io](https://cloudevents.io/) structure is preferred
