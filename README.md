@@ -36,6 +36,13 @@ The [Github package manager](https://docs.github.com/en/packages/working-with-a-
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
 
+## Logging
+
+Logging is preferred through a library, avoiding printf, console.log, etc. Logging should use logging levels such as "error," "debug," or "notice using the  Elastic Common Schema (ECS).
+
+- [Elastic Common Schema](https://www.elastic.co/guide/en/ecs-logging/overview/current/intro.html)
+- [Sentry](https://sentry.io/)
+
 ## Code repository
 
 Pon has a company wide Github Enterprise license managed by PonIT and Digital Solutions. 
