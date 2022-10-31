@@ -58,6 +58,7 @@ Several code quality tools are in use:
 
 Pon implements security by design
 
+- [Privacy and Security intake (internal)](https://securityprivacy.pon.com/sp-intake/)
 - [Security architecture (internal)](https://ponintranet.com/en/pon-arch-subjects/security-architecture/)
 
 ## Architecture
