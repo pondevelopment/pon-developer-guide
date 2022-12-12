@@ -36,6 +36,10 @@ The [Github package manager](https://docs.github.com/en/packages/working-with-a-
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
 
+### Golang
+
+- [Linter - GolangCI](https://golangci-lint.run/)
+
 ## Logging
 
 Logging is preferred through a library, avoiding printf, console.log, etc. Logging should use logging levels such as "error," "debug," or "notice using the  Elastic Common Schema (ECS).
@@ -53,6 +57,10 @@ On the Pon Github account linters are available and maintained by cross-opco dev
 Several code quality tools are in use:
 
 - [Pon guidelines for SonarCloud](https://github.com/pondevelopment/pon-developer-guide/tree/main/tools/sonarcloud)
+### Golang style guide
+Code formatting is handled in Go automatically by gofmt. The following guides take it some steps further by describing the Do's and Don'ts when writing Go code.
+- [Uber Go Style guide](https://github.com/uber-go/guide/blob/master/style.md)
+- [Google Go Style guide](https://google.github.io/styleguide/go/)
 
 ## Security
 
