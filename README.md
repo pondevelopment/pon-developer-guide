@@ -62,6 +62,16 @@ Code formatting is handled in Go automatically by gofmt. The following guides ta
 - [Uber Go Style guide](https://github.com/uber-go/guide/blob/master/style.md)
 - [Google Go Style guide](https://google.github.io/styleguide/go/)
 
+### Pull requests
+
+Pull requests are an important tool for code quality, in summary the Pon best practices for pull requests are:
+
+- Keep your pull requests small
+- The title contains the issue reference
+- A pull request handles about a single issue or ticket (linting updates are usually considered a single issue)
+
+For more details please refer to [pull requests best practices](https://github.com/pondevelopment/pon-developer-guide/blob/main/pull-requests.md)
+
 ## Security
 
 Pon implements security by design
