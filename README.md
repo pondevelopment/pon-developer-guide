@@ -77,6 +77,7 @@ For more details please refer to [pull requests best practices](https://github.c
 
 Pon implements security by design
 
+- [Privacy and Security generic (internal)](https://securityprivacy.pon.com/)
 - [Privacy and Security intake (internal)](https://securityprivacy.pon.com/sp-intake/)
 - [Security architecture (internal)](https://ponintranet.com/en/pon-arch-subjects/security-architecture/)
 
