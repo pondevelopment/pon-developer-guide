@@ -36,6 +36,7 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 The [Github package manager](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry) preferred as NPM registry. 
 
 - [NVM](https://github.com/nvm-sh/nvm) - Node Version Manager
+- [Working with the NPM registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
 
 ### Golang
 
