@@ -21,7 +21,7 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 
 - [Github Enterprise](https://github.com/enterprise) - Pon wide license, managed by Digital Solutions
 - [VSCode](https://code.visualstudio.com/)
-- [VSCode - Prettier Extension](https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode)
+- [VSCode - Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [VSCode - StyleLint Plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [VSCode - Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - for pair programming
 - [Commitizen](https://github.com/commitizen-tools/commitizen)
