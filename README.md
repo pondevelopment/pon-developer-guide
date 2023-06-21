@@ -41,6 +41,10 @@ The [Github package manager](https://docs.github.com/en/packages/working-with-a-
 
 - [Linter - GolangCI](https://golangci-lint.run/)
 
+### PHP
+
+- [Linter - phpcs](https://marketplace.visualstudio.com/items?itemName=shevaua.phpcs)
+
 ## Logging
 
 Logging is preferred through a library, avoiding printf, console.log, etc. Logging should use logging levels such as "error," "debug," or "notice using the  Elastic Common Schema (ECS).
