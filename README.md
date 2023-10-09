@@ -69,7 +69,7 @@ Pon has a company-wide GitHub Enterprise license managed by PonIT and Digital So
 - Ensure all repositories have the necessary protections in place, such as requiring pull request reviews before merging, and protecting sensitive branches.
 - Regularly review user access levels to ensure they are appropriate, removing access for individuals who no longer require it.
 - Utilize GitHub's security features such as Dependabot for monitoring dependencies for known vulnerabilities.
-- Ensure that no sensitive information, such as passwords or API keys, is committed to the repository. Refer to the Pon secrets management guidelines.
+- Ensure that no sensitive information, such as passwords or API keys, is committed to the repository. Refer to the [Pon secrets management guidelines](https://drive.google.com/file/d/1q5JVUer6uvnYthcLcQrY1MXxckBfsu7S/view).
 - Conduct regular security audits to identify and address potential vulnerabilities.
 
 ## Code quality
