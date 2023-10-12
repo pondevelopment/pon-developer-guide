@@ -1,6 +1,6 @@
 # Task ticket template
 
-Use this template for describing a task. It is important to that the input describes the scope or boundaries of the change (e.g. which part of the solution), the acceptance criteria and the stakeholders that need to be informed. Provide as much input as possible for a good briefing.
+Use this template for describing a task - an activity that needs to happen (e.g. change a configuration, add a user). It is important to that the input describes the scope or boundaries of the change (e.g. which part of the solution), the acceptance criteria and the stakeholders that need to be informed. Provide as much input as possible for a good briefing.
 
 ~~~markdown
 Copy everything below this line into the ticket and fill in the details.

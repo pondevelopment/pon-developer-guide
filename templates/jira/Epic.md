@@ -1,6 +1,6 @@
 # Epic ticket template
 
-An Epic is a big feature or task. It can span multiple sprints and can be broken down into smaller tasks. Use Epic tickets to group related tasks together into logical collections.
+An Epic is a big (spans multiple sprints) feature or task. It can span multiple sprints and can be broken down into smaller tasks. Use Epic tickets to group related tasks together into logical collections.
 
 Here it is important to introduce the "job to be done" at a high level and explain the why. The Epic should be broken down into smaller tasks that can be completed in a single sprint.
 
