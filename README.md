@@ -24,6 +24,7 @@ Every crafts person has his/her preferred tools. While you are free to choose wh
 - [VSCode - Prettier Extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [VSCode - StyleLint Plugin](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [VSCode - Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) - for pair programming
+- [VSCode - Code Spell Checker Extension](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
 - [Commitizen](https://github.com/commitizen-tools/commitizen)
 
 ### Javascript
