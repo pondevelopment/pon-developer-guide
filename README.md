@@ -53,9 +53,25 @@ Logging is preferred through a library, avoiding printf, console.log, etc. Loggi
 - [Elastic Common Schema](https://www.elastic.co/guide/en/ecs-logging/overview/current/intro.html)
 - [Sentry](https://sentry.io/)
 
-## Code repository
+## Code Repository
 
-Pon has a company wide Github Enterprise license managed by PonIT and Digital Solutions. 
+Pon has a company-wide GitHub Enterprise license managed by PonIT and Digital Solutions.
+
+### Repository Guidelines
+
+- Avoid creating repositories in your personal account; use the company repository.
+- Adhere to the naming conventions for repositories, which should be descriptive and follow the format: `<ProjectName>-<RepoPurpose>`.
+- Ensure that the `README.md` file is well-documented, providing an overview of the project, setup instructions, and how to contribute.
+- Label issues and pull requests appropriately to help organize and prioritize work.
+
+### Repository Security
+
+- Open sourcing repositories, including making a repository public, must only be done after explicit approval from Pon Privacy & Security.
+- Ensure all repositories have the necessary protections in place, such as requiring pull request reviews before merging, and protecting sensitive branches.
+- Regularly review user access levels to ensure they are appropriate, removing access for individuals who no longer require it.
+- Utilize GitHub's security features such as Dependabot for monitoring dependencies for known vulnerabilities.
+- Ensure that no sensitive information, such as passwords or API keys, is committed to the repository. Refer to the [Pon secrets management guidelines](https://drive.google.com/file/d/1q5JVUer6uvnYthcLcQrY1MXxckBfsu7S/view).
+- Conduct regular security audits to identify and address potential vulnerabilities.
 
 ## Code quality
 
