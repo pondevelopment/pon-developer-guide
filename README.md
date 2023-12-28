@@ -53,6 +53,23 @@ Logging is preferred through a library, avoiding printf, console.log, etc. Loggi
 - [Elastic Common Schema](https://www.elastic.co/guide/en/ecs-logging/overview/current/intro.html)
 - [Sentry](https://sentry.io/)
 
+### Key Principles of Secure Logging
+
+- **Avoid Logging Sensitive Data**: Ensure that logs do not contain sensitive information such as passwords, email addresses, or PII. Scrubbing or masking such data is crucial to maintaining privacy and security.
+- **Regular Review and Audit of Log Files**: Periodically review and audit log files to ensure they contain appropriate information and do not inadvertently capture sensitive data.
+- **Secure Log Storage and Access**: Store logs securely and restrict access. Logs can contain sensitive information and should be protected against unauthorized access.
+- **Integration with Monitoring Tools**: Utilize tools like Sentry for real-time error tracking and monitoring, enhancing the ability to respond to issues promptly.
+
+### Useful Resources
+
+- [Elastic Common Schema (ECS) Logging](https://www.elastic.co/guide/en/ecs-logging/overview/current/intro.html): Guidelines and standards for structured logging.
+- [Sentry](https://sentry.io/): A tool for real-time monitoring and error tracking.
+
+Incorporating these secure logging practices ensures that while logs provide valuable insights for development and maintenance, they do not become a liability by exposing sensitive information.
+
+
+
+
 ## Code Repository
 
 Pon has a company-wide GitHub Enterprise license managed by PonIT and Digital Solutions.
