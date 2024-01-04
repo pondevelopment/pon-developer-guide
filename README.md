@@ -55,7 +55,7 @@ Logging is preferred through a library, avoiding printf, console.log, etc. Loggi
 
 ### Key Principles of Secure Logging
 
-- **Avoid Logging Sensitive Data**: Ensure that logs do not contain sensitive information such as passwords, email addresses, or PII. Scrubbing or masking such data is crucial to maintaining privacy and security.
+- **Avoid Logging Sensitive Data**: Ensure that logs do not contain sensitive information such as passwords, email addresses, or personally identifiable information (PII). Scrubbing or masking such data is crucial to maintaining privacy and security.
 - **Regular Review and Audit of Log Files**: Periodically review and audit log files to ensure they contain appropriate information and do not inadvertently capture sensitive data.
 - **Secure Log Storage and Access**: Store logs securely and restrict access. Logs can contain sensitive information and should be protected against unauthorized access.
 - **Integration with Monitoring Tools**: Utilize tools like Sentry for real-time error tracking and monitoring, enhancing the ability to respond to issues promptly.
