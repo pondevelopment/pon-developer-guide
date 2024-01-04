@@ -19,7 +19,7 @@ In this chapter, special attention will be given to the most relevant and preval
 
 # OWASP API Security
 
-The header of each chapter title refers to the OWASP reference as published on owasp.org.
+The header of each chapter title refers to the OWASP reference as published on [owasp.org](https://owasp.org).
 
 ## API4:2023 Unrestricted Resource Consumption
 
