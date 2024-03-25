@@ -35,5 +35,5 @@ This project uses the following environment configurations.
 | Environment | Purpose | Domain | Hosting | Deployment |
 |-|-|-|-|-|
 | `DEV` | Environment to contribute changes to the project | https://localhost:3000 | Local development server | - |
-| `PREVIEW` | Verify changes and test integrations | https://*.example.pages.dev/ | Cloudflare Pages (Tenant xxx) | Create a Pull Request to the main branch |
-| `PRODUCTION` | Production environment | https://*.example.pages.dev/ | Cloudflare Pages (Tenant xxx) | Merge to the main branch |
+| `PREVIEW` | Verify changes and test integrations | https://example.com | Hosting name | Create a Pull Request to the main branch |
+| `PRODUCTION` | Production environment | https://example.com | Hosting name | Merge to the main branch |
