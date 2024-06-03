@@ -31,11 +31,14 @@ Remember, you can customize the template according to the specific needs of your
 I have:
 - [ ] Reviewed my own code
 - [ ] Manually verified the changes meet the requirements
+- [ ] This PR only contains one feature
+- [ ] Only relevant files were touched
 - [ ] Tested on relevant devices and screen sizes
 - [ ] Added automated tests
 - [ ] WCAG compliant
 - [ ] SEO optimized
 - [ ] Security checks are passed
-- [ ] Code is clean and follows guidelines (https://github.com/pondevelopment/restful-api-guidelines, https://github.com/pondevelopment/pon-developer-guide & https://github.com/pondevelopment/guidelines-git-branching)
+- [ ] Code is clean and follows guidelines (https://github.com/pondevelopment/restful-api-guidelines & https://github.com/pondevelopment/pon-developer-guide
+- [ ] The correct branch name is used, as per the instructions at https://github.com/pondevelopment/guidelines-git-branching)
 - [ ] Code is well documented and if applicable non code related documentation is made
 ```
