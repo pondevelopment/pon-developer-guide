@@ -149,6 +149,19 @@ If you, as a reviewer, are suspicious that the work in the PR has not been teste
 
 If, as a contributor, you know that this change is not fully tested, highlight this in the PR as a comment.
 
+### Pull Request Template
+
+A Pull Request Template can streamline the pull request process, ensuring that all necessary details are consistently communicated. It aids in maintaining high-quality submissions and facilitates a smoother review process by providing a standardized structure for contributors to follow.
+
+Using a template helps avoid common oversights and enhances the clarity and efficiency of collaboration within the team, ultimately contributing to the overall quality of the codebase.
+
+#### Key Benefits
+
+- **Consistency:** Standardizes the information required for every pull request.
+- **Efficiency:** Speeds up the review process by providing all essential details upfront.
+- **Quality:** Encourages thorough descriptions, which can lead to a better understanding and fewer errors.
+
+A template is available here [pull-request-template.md](./pull-request-template.md).
 
 ## Some relevant links
 * [Github's recommendations for PRs](https://github.com/blog/1943-how-to-write-the-perfect-pull-request)
