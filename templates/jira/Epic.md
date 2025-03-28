@@ -4,10 +4,11 @@ An Epic is a big (spans multiple sprints) feature or task. It can span multiple 
 
 Here it is important to introduce the "job to be done" at a high level and explain the why. The Epic should be broken down into smaller tasks that can be completed in a single sprint.
 
-~~~markdown
 Copy everything below this line into the ticket and fill in the details.
-~~~
 
+---
+
+~~~markdown
 ## Background & Context 🔮
 
 (Description with background information giving additional context)
@@ -29,3 +30,4 @@ Copy everything below this line into the ticket and fill in the details.
 (Who needs to be informed)
 
 - stakeholderOne
+~~~

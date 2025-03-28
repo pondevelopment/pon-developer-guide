@@ -2,10 +2,11 @@
 
 Use this template for reporting a bug or regression. It is important to that the input describes what is observed objectively, what is expected and how to reproduce the problem. Provide as much information as possible for a speedy resolution.
 
-~~~markdown
 Copy everything below this line into the ticket and fill in the details.
-~~~
 
+---
+
+~~~markdown
 ## Problem definition 🐞
 
 (describe the problem, add screenshots if relevant)
@@ -20,4 +21,5 @@ Copy everything below this line into the ticket and fill in the details.
 
 ## Steps to reproduce 🐾
 
-(a detailed list of steps taken to observe the problem) |
+(a detailed list of steps taken to observe the problem)
+~~~
