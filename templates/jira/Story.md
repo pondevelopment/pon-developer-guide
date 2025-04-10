@@ -2,10 +2,11 @@
 
 Use this template for describing a user story. It is important to that the input describes the perspective of the user, the scope or boundaries of the change (e.g. which part of the solution), the acceptance criteria and the stakeholders that need to be informed. Provide as much input as possible for a good briefing.
 
-~~~markdown
 Copy everything below this line into the ticket and fill in the details.
-~~~
 
+---
+
+~~~markdown
 ## User Story 👥
 
 As a …
@@ -39,3 +40,4 @@ in order to …
 (Who needs to be informed)
 
 - stakeholderOne
+~~~
