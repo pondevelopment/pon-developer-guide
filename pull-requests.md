@@ -7,6 +7,8 @@ PRs are a great way of sharing information, and can help us be aware of the chan
 
 **Ultimately though, the primary reason we use PRs is to encourage quality contributions to our code repositories**
 
+For guidance on when approval is required before merge, and when low-risk changes may proceed without waiting for peer approval, see the [Pull Request Approval Policy](./pull-request-approval-policy.md).
+
 Done well, the commits (and their attached messages) contained within tell a story to people examining the code at a later date. If we are not careful to ensure the quality of these commits, we silently lose this ability.
 
 **Poor quality code can be refactored. A terrible commit lasts forever.**
