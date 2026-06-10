@@ -18,8 +18,10 @@ what the three agents below do. Two more 2026 shifts make routing pay off:
 
 - **Context caching is standard** and can cut input cost by up to ~75%, so
   keeping a stable repo prefix is now a first-class cost lever.
-- **Copilot moved to metered AI credits** (as of June 1, 2026), so model choice
-  directly affects spend even inside Copilot.
+- **Copilot moved to usage-based billing** (as of June 1, 2026): all plans now
+  get a monthly allotment of **GitHub AI Credits**, and usage is metered on
+  **token consumption** rather than per-request "premium request" multipliers.
+  Model choice (and how many tokens it reads/writes) directly affects spend.
 
 ## Two things you (almost) never need to optimize
 
@@ -30,11 +32,11 @@ what the three agents below do. Two more 2026 shifts make routing pay off:
 
 ## Three agents
 
-| Agent | Use for | Example models | Cost posture |
+| Agent | Use for | Example models | Cost posture (tokens → AI credits) |
 |---|---|---|---|
-| **Fast / cheap** | Explanations, docstrings, comments, changelogs, release notes, tiny edits, summaries | GPT-5 mini, MAI-Code-1-Flash, Gemini Flash/Haiku | 0× or low |
-| **Balanced** | Everyday implementation, bug fixes, tests, refactors, normal debugging | Claude Sonnet 4.6, Gemini 2.5 Pro | 1× / mid |
-| **Deep reasoning** | Architecture, multi-file/cross-service debugging, large-context work, repeated failed fixes | GPT-5/5.5, Gemini 2.5/3.1 Pro, Claude Opus, o3 | High premium |
+| **Fast / cheap** | Explanations, docstrings, comments, changelogs, release notes, tiny edits, summaries | GPT-5 mini, MAI-Code-1-Flash, Gemini Flash/Haiku | Lowest token price |
+| **Balanced** | Everyday implementation, bug fixes, tests, refactors, normal debugging | Claude Sonnet 4.6, Gemini 2.5 Pro | Mid token price |
+| **Deep reasoning** | Architecture, multi-file/cross-service debugging, large-context work, repeated failed fixes | GPT-5/5.5, Gemini 2.5/3.1 Pro, Claude Opus, o3 | Highest token price |
 
 These three agents map directly onto the 2026 "Pareto router" pattern:
 
@@ -60,6 +62,42 @@ leaderboard rank hides the multidimensional reality.
 The lesson: use strong-SWE-bench models for the balanced/deep agents, strong
 tool-use models for agentic work, and fast/cheap models for narrative and
 high-volume chores.
+
+## Classify by reasoning demand (not domain)
+
+Before picking a model, classify the *task* by how much multi-step inference,
+error recovery, and context integration it needs — not by whether it's "coding"
+or "docs". This maps straight onto the three agents:
+
+| Reasoning demand | Examples | Agent | Frontier worth it? |
+|---|---|---|---|
+| **Low** | Summaries, classification, extraction, translation, first drafts, routing | cheap | No — wasteful |
+| **Medium** | Code review for correctness, multi-source reports, nuanced extraction, long multi-turn work | balanced | Usually not — only on edge cases |
+| **High** | Autonomous agents on unfamiliar large codebases, research synthesis, security/adversarial work | deep | Yes — the gap is real and task-relevant |
+
+Most production work is low or medium demand, where the last ~10% of frontier
+capability simply doesn't change the outcome. Defaulting *everything* to a
+frontier model is the most common (and most expensive) routing mistake.
+
+## Open source is often good enough
+
+For low/medium-demand tasks, open-weight models (e.g. DeepSeek, GLM, Kimi) are
+frequently "good enough" at a fraction of the cost — open-weight options can run
+several times cheaper than frontier tiers. Two reasons this matters beyond the
+per-token price:
+
+- **Budget blowout is real.** Teams routinely burn their whole annual AI-tooling
+  budget in months by sending every request to a premium model. Routing the
+  low-reasoning share (docs, tests, routine refactors) to a cheaper model can
+  stretch the same budget many times further.
+- **Vendor concentration is a business risk**, not just a cost one. A single
+  provider exposes you to price hikes, API outages, and even wrongful account
+  bans. Running some fraction of traffic through a second provider builds the
+  muscle memory before you're forced to.
+
+Caveat: "good enough" is task- and data-specific. **Run your own eval on your
+own data** — that's the only reliable way to know where a given task sits.
+Experiment now, on something low-stakes, before you have to.
 
 ## Default policy
 
