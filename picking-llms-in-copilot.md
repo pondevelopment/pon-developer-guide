@@ -99,6 +99,33 @@ Caveat: "good enough" is task- and data-specific. **Run your own eval on your
 own data** — that's the only reliable way to know where a given task sits.
 Experiment now, on something low-stakes, before you have to.
 
+## Tool use is a separate axis
+
+Reasoning depth and **tool-use (agentic) ability are not the same thing**. A
+model can write strong code in a single shot yet be unreliable at multi-step
+tool calling — picking the right tool, passing well-formed arguments, reading
+results, and recovering from errors across many turns. This matters the moment a
+task involves MCP servers, terminal commands, file edits, or any agent loop.
+
+Failure modes of weak tool-users:
+
+- **Malformed or hallucinated calls** — inventing tools/parameters that don't
+  exist, or wrong JSON/argument shapes.
+- **No error recovery** — repeating the same failing call instead of adapting.
+- **Loop/stall** — burning turns (and tokens) without converging.
+- **Skipping tools** — answering from memory when it should have called a tool.
+
+Routing implications:
+
+- **Agentic / multi-tool work** (autonomous edits, MCP, terminal loops): use a
+  model with strong tool-use, not just a strong reasoner. Proxy benchmarks:
+  **MCP Atlas** and **Terminal-Bench 2.0** — Codex-class and frontier Pro models
+  lead here; many cheap/older models do not.
+- **The cheap agent is for single-shot output**, not driving tools. If a "cheap"
+  task quietly turns into an agent loop, escalate to a proven tool-user.
+- **In VS Code**, prefer a known-good tool-use model whenever the agent has tools
+  enabled; if a model thrashes on tool calls, switch rather than retry.
+
 ## Default policy
 
 - Keep **Copilot Chat on Auto** for everyday work.

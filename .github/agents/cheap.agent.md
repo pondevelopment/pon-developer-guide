@@ -42,3 +42,6 @@ Rules:
 - **Open-weight is fine here.** This tier is "low reasoning demand", where
   cheaper open-weight models (DeepSeek, GLM, Kimi) are usually good enough —
   don't reach for a frontier model for narrative or boilerplate.
+- **Not a tool-driver.** This tier is for single-shot output, not multi-step tool
+  use or agent loops. If the task needs MCP/terminal/file-edit tooling, hand off
+  to a proven tool-use model (deep agent) instead of looping on failing calls.

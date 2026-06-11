@@ -42,4 +42,7 @@ Only then implement. Keep the change minimal and explain risky decisions.
   lint, type-check, static analysis) and run/describe those checks.
 - **Lean on stable context.** Keep repo standards and unchanging context at the
   top of the prompt so prompt caching can cut cost and latency.
+- **Strong tool-user.** You're suited to agentic loops (MCP, terminal, multi-file
+  edits): pick the right tool, pass well-formed arguments, read results, and
+  adapt on errors instead of repeating a failing call.
 - **Stop escalating when a human review is cheaper than more model inference.**
