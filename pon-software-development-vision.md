@@ -59,3 +59,5 @@ Product teams evaluate models on the quality and cost of completing the task suc
 ## 15 Different development approaches can coexist
 
 We move towards this vision while accepting that traditional and AI-driven development can operate alongside each other across teams and systems. Product teams choose the approach and pace of transition based on business value and risk. Existing software and expertise retain their place where they serve the business, while we invest in the skills and capabilities needed for this vision.
+
+This vision is inspired by Thorsten Ball’s essay [What I believe about the future of software development](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/). The fifteen rules above build on that inspiration and set our direction at Pon.
