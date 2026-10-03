@@ -1,33 +1,61 @@
-# Our vision of software development at Pon
+# Vision of software development at Pon
 
-1. **Business understanding becomes a core skill.** Product teams combine business knowledge with technical judgment to decide what to build. They challenge assumptions with users throughout development and measure success by improvements in business outcomes.
+## 1 Business understanding becomes a core skill
 
-2. **Interfaces adapt to the user’s intent.** AI interprets what users want to achieve and generates or adapts the interface to support their task. Following rule 4, the underlying systems continue to enforce business rules and permissions. Product teams validate that these interfaces make work easier and keep users in control. The design question becomes: **what does this person need to understand or do at this moment?**
+Product teams combine business knowledge with technical judgment to decide what to build. They challenge assumptions with users throughout development and measure success by improvements in business outcomes.
 
-3. **Human judgment moves to the system level.** AI writes and checks code. Product teams validate business outcomes, integrations and data access, with clear ownership in each operating company.
+## 2 Interfaces adapt to the user’s intent
 
-4. **AI and deterministic software work together.** AI interprets context and coordinates actions through software that executes defined operations and enforces business rules. Product teams design this interaction, including its boundaries and exception handling. Following rule 5, teams test the complete workflow against expected business outcomes.
+AI interprets what users want to achieve and generates or adapts the interface to support their task. Following rule 4, the underlying systems continue to enforce business rules and permissions. Product teams validate that these interfaces make work easier and keep users in control. The design question becomes: what does this person need to understand or do at this moment?
 
-5. **Quality means proving the software fulfils its purpose.** Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. AI generates and runs extensive end-to-end tests against those expectations, covering real business workflows and failure scenarios.
+## 3 Human judgment moves to the system level
 
-6. **AI changes what we build, buy or reuse.** Lower implementation effort makes tailored software a more viable alternative to existing packages. When adapting a package costs more than building what we need, product teams should reconsider the package. We compare business fit and total cost of ownership, including integration, security and ongoing support. Cheap code generation alone does not justify owning another system.
+AI writes and checks code. Product teams validate business outcomes, integrations and data access, with clear ownership in each operating company.
 
-7. **Purpose determines the programming language.** Following rule 3, AI’s role in implementation allows us to choose languages and frameworks based on the software’s purpose and operating requirements, rather than developers’ existing skills.
+## 4 AI and deterministic software work together
 
-8. **Development tools are a means to an end.** Editors, terminals and frameworks serve the purpose of building useful software. Following rule 3, AI increasingly operates these tools while product teams direct the work. We choose and change tools based on how well they help us achieve the intended outcomes.
+AI interprets context and coordinates actions through software that executes defined operations and enforces business rules. Product teams design this interaction, including its boundaries and exception handling. Following rule 5, teams test the complete workflow against expected business outcomes.
 
-9. **Code standards must justify their value.** Following rules 3 and 5, we judge code by how reliably the software fulfils its purpose and how effectively we can change and operate it. We retain standards that support these outcomes and let go of conventions whose only purpose is to accommodate manual coding.
+## 5 Quality means proving the software fulfils its purpose
 
-10. **Handcrafted code must earn its place.** Human-written or hand-optimised code is an exception, justified by business requirements such as speed, scale or operating cost. Following rule 5, product teams verify through testing that it delivers the required benefit.
+Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. AI generates and runs extensive end-to-end tests against those expectations, covering real business workflows and failure scenarios.
 
-11. **The traditional separation between product management, design and engineering disappears.** We embrace product teams in which people work across these boundaries, supported by AI. Specialist expertise remains valuable, and teams share responsibility from problem definition through operation, with clear accountability for business outcomes.
+## 6 AI changes what we build, buy or reuse
 
-12. **Small product teams have the freedom to move quickly.** We actively remove organisational barriers, including unnecessary approvals, handovers and dependencies between teams. Product teams make decisions close to their businesses within shared requirements for security, data access and integration. Shared capabilities reduce the work each team must do, while coordination and approvals remain proportionate to risk.
+Lower implementation effort makes tailored software a more viable alternative to existing packages. When adapting a package costs more than building what we need, product teams should reconsider the package. We compare business fit and total cost of ownership, including integration, security and ongoing support. Cheap code generation alone does not justify owning another system.
 
-13. **AI capacity is part of our development capacity.** We give product teams access to capable models and sufficient usage capacity to build, test and improve software. We assess this investment against business value, delivery time and total cost, and avoid limits that cost more in lost productivity than they save.
+## 7 Purpose determines the programming language
 
-14. **Model choice follows task performance and total cost.** Product teams evaluate models on the quality and cost of completing the task successfully, including retries, delays and human correction. Following rule 5, we verify performance on representative tasks and reassess our choices as models improve.
+Following rule 3, AI’s role in implementation allows us to choose languages and frameworks based on the software’s purpose and operating requirements, rather than developers’ existing skills.
 
-15. **Different development approaches can coexist.** We move towards this vision while accepting that traditional and AI-driven development can operate alongside each other across teams and systems. Product teams choose the approach and pace of transition based on business value and risk. Existing software and expertise retain their place where they serve the business, while we invest in the skills and capabilities needed for this vision.
+## 8 Development tools are a means to an end
 
-Inspired by Thorsten Ball’s [What I believe about the future of software development](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/) (19 September 2026). These principles adapt his arguments to Pon’s vision.
+Editors, terminals and frameworks serve the purpose of building useful software. Following rule 3, AI increasingly operates these tools while product teams direct the work. We choose and change tools based on how well they help us achieve the intended outcomes.
+
+## 9 Code standards must justify their value
+
+Following rules 3 and 5, we judge code by how reliably the software fulfils its purpose and how effectively we can change and operate it. We retain standards that support these outcomes and let go of conventions whose only purpose is to accommodate manual coding.
+
+## 10 Handcrafted code must earn its place
+
+Human-written or hand-optimised code is an exception, justified by business requirements such as speed, scale or operating cost. Following rule 5, product teams verify through testing that it delivers the required benefit.
+
+## 11 The traditional separation between product management, design and engineering disappears
+
+We embrace product teams in which people work across these boundaries, supported by AI. Specialist expertise remains valuable, and teams share responsibility from problem definition through operation, with clear accountability for business outcomes.
+
+## 12 Small product teams have the freedom to move quickly
+
+We actively remove organisational barriers, including unnecessary approvals, handovers and dependencies between teams. Product teams make decisions close to their businesses within shared requirements for security, data access and integration. Shared capabilities reduce the work each team must do, while coordination and approvals remain proportionate to risk.
+
+## 13 AI capacity is part of our development capacity
+
+We give product teams access to capable models and sufficient usage capacity to build, test and improve software. We assess this investment against business value, delivery time and total cost, and avoid limits that cost more in lost productivity than they save.
+
+## 14 Model choice follows task performance and total cost
+
+Product teams evaluate models on the quality and cost of completing the task successfully, including retries, delays and human correction. Following rule 5, we verify performance on representative tasks and reassess our choices as models improve.
+
+## 15 Different development approaches can coexist
+
+We move towards this vision while accepting that traditional and AI-driven development can operate alongside each other across teams and systems. Product teams choose the approach and pace of transition based on business value and risk. Existing software and expertise retain their place where they serve the business, while we invest in the skills and capabilities needed for this vision.
