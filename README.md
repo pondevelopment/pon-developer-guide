@@ -53,6 +53,15 @@ Logging is preferred through a library, avoiding printf, console.log, etc. Loggi
 - [Elastic Common Schema](https://www.elastic.co/guide/en/ecs-logging/overview/current/intro.html)
 - [Sentry](https://sentry.io/)
 
+### Basic Logging Principles
+
+- **Log performance of service providers**: External service providers should be covered by an SLA; independent logging is required to evaluate adherence to the SLA.
+- **Log performance of (financial) data processing**: Management must be able to monitor the correct and timely processing of (financial) data.
+- **Log changes to (privileged) account**: Critical events must be logged.
+- **Log transactions performed by (privileged) accounts**: Critical events must be logged.
+- **Log changes to financial settings**: Ciritical financial events must be logged.
+- **Log direct database access**: Direct access to databases must be logged.
+
 ### Key Principles of Secure Logging
 
 - **Avoid Logging Sensitive Data**: Ensure that logs do not contain sensitive information such as passwords, email addresses, or personally identifiable information (PII). Scrubbing or masking such data is crucial to maintaining privacy and security.
@@ -112,6 +121,12 @@ Pull requests are an important tool for code quality, in summary the Pon best pr
 For more details please refer to [pull requests best practices](https://github.com/pondevelopment/pon-developer-guide/blob/main/pull-requests.md)
 
 ## Security
+
+### Network
+
+SSL is obligatory for all network connections. Cloudflare must be used unless an alternative is in place.
+
+### Generic
 
 Pon implements security by design
 
