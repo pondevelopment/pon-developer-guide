@@ -14,11 +14,11 @@ AI writes and checks code. Product teams validate business outcomes, integration
 
 ## 4 AI and deterministic software work together
 
-AI interprets context and coordinates actions through software that executes defined operations and enforces business rules. Product teams design this interaction, including its boundaries and exception handling. Following rule 5, teams test the complete workflow against expected business outcomes.
+AI interprets context and coordinates actions through software that executes defined operations and enforces business rules. Product teams design this interaction, including its boundaries and exception handling. Following rule 5, the business rules this software enforces are formalized and checked, and teams test the complete workflow against expected business outcomes.
 
 ## 5 Quality means proving the software fulfils its purpose
 
-Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. AI generates and runs extensive end-to-end tests against those expectations, covering real business workflows and failure scenarios.
+Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. Business rules are supplied or validated by domain experts and business owners, and formalized in a proof-checked language such as Lean. This structure enforces the soundness of the rules as stated: they are consistent, give every declared case an outcome and satisfy the properties the business requires. The specification is the basis for the code. AI generates and runs extensive end-to-end tests against the expected outcomes, covering real business workflows and failure scenarios.
 
 ## 6 AI changes what we build, buy or reuse
 
