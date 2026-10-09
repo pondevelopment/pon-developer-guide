@@ -10,7 +10,7 @@ AI interprets what users want to achieve and generates or adapts the interface t
 
 ## 3 Human judgment moves to the system level
 
-AI writes and checks code. Product teams validate business outcomes, integrations and data access, with clear ownership in each operating company.
+AI writes and checks code. A named person is accountable for every change that ships, either by approving it or by approving the conditions under which changes of its kind ship automatically. Human judgment concentrates on changes that alter what the software is meant to do and on failures that are hard to detect or undo. Product teams validate business outcomes, integrations and data access, and keep the understanding needed to investigate what ships.
 
 ## 4 AI and deterministic software work together
 
@@ -18,7 +18,7 @@ AI interprets context and coordinates actions through software that executes def
 
 ## 5 Quality means proving the software fulfils its purpose
 
-Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. Business rules are supplied or validated by domain experts and business owners, and formalized in a proof-checked language such as Lean. This structure enforces the soundness of the rules as stated: they are consistent, give every declared case an outcome and satisfy the properties the business requires. The specification is the basis for the code. AI generates and runs extensive end-to-end tests against the expected outcomes, covering real business workflows and failure scenarios.
+Following rule 3, product teams define expected outcomes, unacceptable failures and the evidence needed for release. Business rules are supplied or validated by domain experts and business owners, and formalized in a proof-checked language such as Lean. This structure enforces the soundness of the rules as stated: they are consistent, give every declared case an outcome and satisfy the properties the business requires. The specification is the basis for the code and the independent reference against which the code is checked. AI generates and runs extensive end-to-end tests against the expected outcomes, covering real business workflows and failure scenarios. A check is only as trustworthy as its independence from the work it verifies.
 
 ## 6 AI changes what we build, buy or reuse
 
@@ -46,7 +46,7 @@ We embrace product teams in which people work across these boundaries, supported
 
 ## 12 Small product teams have the freedom to move quickly
 
-We actively remove organisational barriers, including unnecessary approvals, handovers and dependencies between teams. Product teams make decisions close to their businesses within shared requirements for security, data access and integration. Shared capabilities reduce the work each team must do, while coordination and approvals remain proportionate to risk.
+We actively remove organisational barriers, including unnecessary approvals, handovers and dependencies between teams. Product teams make decisions close to their businesses within shared requirements for security, data access and integration. Shared capabilities reduce the work each team must do, while coordination and approvals remain proportionate to risk. Those accountable for a release have a say in its pace and in how thoroughly it is checked.
 
 ## 13 AI capacity is part of our development capacity
 
