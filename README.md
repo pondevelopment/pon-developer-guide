@@ -111,6 +111,8 @@ Pull requests are an important tool for code quality, in summary the Pon best pr
 
 For more details please refer to [pull requests best practices](https://github.com/pondevelopment/pon-developer-guide/blob/main/pull-requests.md)
 
+For guidance on when a contributor may merge without waiting for peer approval, and when approval is mandatory, refer to the [pull request approval policy](https://github.com/pondevelopment/pon-developer-guide/blob/main/pull-request-approval-policy.md).
+
 ## Security
 
 Pon implements security by design
