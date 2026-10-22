@@ -32,6 +32,8 @@ Following rule 3, AI’s role in implementation allows us to choose languages an
 
 Editors, terminals and frameworks serve the purpose of building useful software. Following rule 3, AI increasingly operates these tools while product teams direct the work. We choose and change tools based on how well they help us achieve the intended outcomes.
 
+Product teams keep the business rules, system information and decision records that agents rely on current, with clear ownership of their accuracy.
+
 ## 9 Code standards must justify their value
 
 Following rules 3 and 5, we judge code by how reliably the software fulfils its purpose and how effectively we can change and operate it. We retain standards that support these outcomes and let go of conventions whose only purpose is to accommodate manual coding.
@@ -61,3 +63,5 @@ Product teams evaluate models on the quality and cost of completing the task suc
 We move towards this vision while accepting that traditional and AI-driven development can operate alongside each other across teams and systems. Product teams choose the approach and pace of transition based on business value and risk. Existing software and expertise retain their place where they serve the business, while we invest in the skills and capabilities needed for this vision.
 
 This vision is inspired by Thorsten Ball’s essay [What I believe about the future of software development](https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/). The fifteen rules above build on that inspiration and set our direction at Pon.
+
+Practitioner example for rules 3, 5, 8, 12 and 13: [Uber’s AI infra, from the inside](https://newsletter.pragmaticengineer.com/p/ubers-ai-infra-from-the-inside) (The Pragmatic Engineer, 14 October 2026). Uber describes shared agent infrastructure, verification and flexible budgets; automatic landing remains an ambition.
